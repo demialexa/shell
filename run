@@ -1,0 +1,1 @@
+tail -n +3 | cut -d" " -f 1 | grep -v ^avst$ | sort -u | wc -l < w.out
